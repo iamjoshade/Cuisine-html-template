@@ -213,3 +213,21 @@ footer{
 		margin-bottom: 1rem;
 	}
 }
+
+
+#copyright{
+	padding:  1rem 0;
+}
+
+.copyright__text {
+	font-size: 1.4rem;
+	text-align: center;
+}
+
+
+@media only screen and (min-width: 768px) {
+	.copyright__text{
+		font-size: 1.6rem;
+		text-align: left;
+	}
+}
